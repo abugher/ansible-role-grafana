@@ -3,3 +3,4 @@
 - include:              '../tasks/apt_update.yml'
   when:                 install_files_result.changed
 - include:              '../tasks/install_packages.yml'
+- include:              '../tasks/start_services.yml'

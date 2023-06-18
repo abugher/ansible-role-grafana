@@ -12,3 +12,5 @@ install_files:
     dest:               '/etc/apt/grafana.gpg.key'
 install_packages:
   - 'grafana'
+start_services:
+  - 'grafana-server'
